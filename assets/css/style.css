@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f9ed32;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.background {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.container {
+    width: 1056px;
+    height: 750px;
+    background-color: rgb(212, 236, 254);
+    position: relative;
+}
+.image_sub {
+    width: 41%;
+    height: 100%;
+    /* background-color: rgb(170, 239, 239); */
+    position: relative;
+}
+
+.child_image {
+    position: absolute;
+    width: 80%;
+}
+.child1 {
+    top: 123px;
+    right: 71px;
+}
+.child2 {
+    top: 76px;
+    right: 16px;
+}
+.child3 {
+    top: 404px;
+    right: 71px;
+}
+.child4 {
+    top: 159px;
+    right: 112px;
+    width: 65%;
+}
+.container .sub_container {
+    background-color: #fcfeff;
+    border-radius: 25px 0 0 25px;
+    position: absolute;
+    width: 59%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+}
+.form_register {
+    margin: 15% 15% 0px;
+    height: 100%;
+}
+.title {
+    color: #000;
+    font-size: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+.register_name {
+    margin-top: 6%;
+}
+label {
+    color: #7c838a;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 7px;
+    background: rgba(176, 186, 195, 0.4);
+    flex-shrink: 0;
+    border: #7c838a;
+}
+.register_Email,
+.register_passworld {
+    margin-top: 5%;
+}
+.create_Account {
+    margin-top: 6%;
+    color: #000;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 7px;
+    background: #f9ed32;
+    width: 40%;
+    height: 6%;
+    align-items: center;
+    display: inline-block;
+    padding-top: 7px;
+    padding-left: 6px;
+    margin-left: 30%;
+    opacity: 0.8;
+}
+.create_Account:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.sub_desc {
+    margin-top: 2%;
+    color: #7c838a;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a {
+    color: #f9ed32;
+}
+.another_subDesc {
+    margin-top: 5%;
+    color: #b0bac3;
+    font-size: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+/* .another_subDesc::before {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: #7c838a;
+    display: inline-block;
+    position: absolute;
+    top: 533px;
+    right: 344px;
+}
+.another_subDesc::after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: #7c838a;
+    display: inline-block;
+    position: absolute;
+    top: 533px;
+    right: 275px;
+} */
+.register_Anouther {
+    display: flex;
+    position: relative;
+}
+.btn {
+    width: 45%;
+    height: 6%;
+    border-radius: 15px;
+    border: 1px solid #7c838a;
+    display: flex;
+    margin-top: 4%;
+    opacity: 0.6;
+}
+.btn:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.google,
+.gitHub {
+    color: #7c838a;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 9px;
+}
+.fa-google,
+.fa-github {
+    font-size: 30px;
+    margin: 5px 9px 5px 7px;
+}
+.register_gitHub {
+    margin-left: 12%;
+}
+.Auther_Account {
+    color: #7c838a;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 9%;
+    margin-bottom: 4.3%;
+    text-align: center;
+}
+.log_in:hover {
+    color: rgb(218, 218, 96);
+}
